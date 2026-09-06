@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  border-bottom: 1px solid #222;
+  background: #0a0a0a;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+main {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 90px;
+  margin: 0;
+  letter-spacing: -5px;
+}
+
+main p {
+  color: #aaa;
+  font-size: 22px;
+  margin: 15px 0 35px;
+}
+
+button {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+.hero {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.dubak {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-top: 1px solid #222;
+  background: #111;
+}
+
+.dubak h2 {
+  font-size: 55px;
+  margin: 0 0 15px;
+  letter-spacing: -2px;
+}
+
+.dubak p {
+  color: #999;
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+.dubak-page {
+  min-height: 100vh;
+  background: #0a0a0a;
+  color: white;
+}
+
+.dubak-page nav {
+  border-bottom: 1px solid #222;
+}
+
+.dubak-page nav button {
+  padding: 9px 16px;
+  font-size: 14px;
+}
+
+.chat {
+  width: min(900px, 90%);
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.chat h1 {
+  font-size: 55px;
+  margin: 0;
+  letter-spacing: -2px;
+}
+
+.chat > p {
+  color: #888;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.messages {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 15px 18px;
+  border: 1px solid #252525;
+  border-radius: 12px;
+  background: #111;
+  line-height: 1.5;
+}
+
+.chat-box {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.chat-box input {
+  flex: 1;
+  padding: 15px 18px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background: #111;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.chat-box input:focus {
+  border-color: #666;
+}
+
+.chat-box button {
+  padding: 0 25px;
+}
